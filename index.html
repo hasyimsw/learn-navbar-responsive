@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Navbar Responsive</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-300">
+    
+    <nav class="fixed top-0 left-0 bg-white w-full shadow-md">
+        <div class="container mx-auto flex justify-between items-center text-slate-600 relative">
+            <h1 class="pl-8 py-4 text-xl font-bold cursor-pointer">KICUYY</h1>
+            <ul class="hidden md:flex items-center pr-8 text-base font-semibold cursor-pointer">
+                <li class="hover:text-slate-900 py-4 px-6">Home</li>
+                <li class="hover:text-slate-900 py-4 px-6">ABout</li>
+                <li class="hover:text-slate-900 py-4 px-6">Blog's</li>
+                <li class="hover:text-slate-900 py-4 px-6">Contact</li>
+            </ul>
+
+            <button id="hamburger" class="block md:hidden py-2 px-2 mx-8 rounded focus:outline-slate-500 hover:bg-slate-300 group">
+                <div class="w-6 h-1 bg-slate-800 mb-1"></div>
+                <div class="w-6 h-1 bg-slate-800 mb-1"></div>
+                <div class="w-6 h-1 bg-slate-800"></div>
+
+                <!-- NavItemsResponsive -->
+                <div id="nav-menu" class="absolute top-0 -right-full h-screen w-8/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-1000">
+                    <ul class="w-full text-base cursor-pointer pt-8">
+                        <li class="hover:bg-slate-300 py-4 px-6 w-full">Home</li>
+                        <li class="hover:bg-slate-300 py-4 px-6 w-full">About</li>
+                        <li class="hover:bg-slate-300 py-4 px-6 w-full">Blog's</li>
+                        <li class="hover:bg-slate-300 py-4 px-6 w-full">Contact</li>
+                    </ul>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <section class="pt-32">
+        <div class="container px-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dignissimos excepturi accusantium numquam nostrum quidem accusamus quibusdam optio cum sunt sequi voluptatibus atque autem praesentium amet itaque, quos earum debitis assumenda? Officia soluta, debitis ad quis, repellat enim iusto sequi beatae incidunt molestiae quod quae aspernatur asperiores nesciunt accusantium, ut quasi. Enim voluptatibus vero voluptates aliquam dicta magni alias magnam cumque porro repellendus quod error, voluptate fuga nostrum accusantium illo. Expedita voluptates excepturi in cupiditate dolor facere doloremque mollitia nihil! Veritatis repellendus placeat perferendis exercitationem id assumenda amet? Dignissimos sapiente ex quibusdam recusandae possimus, aperiam id maiores facilis. Quis, magnam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores debitis esse, error enim magnam vero exercitationem cum fugit, natus velit autem pariatur? Corrupti, nesciunt rerum debitis error blanditiis nulla accusamus cumque repudiandae tenetur tempore inventore quos modi. Cum, quam quidem quod obcaecati quaerat sint sed rem voluptatibus veritatis nihil dignissimos ipsam suscipit consectetur quae culpa voluptas aliquam possimus exercitationem maiores distinctio sequi ratione commodi maxime harum? Exercitationem, voluptate. Recusandae, sit dignissimos veritatis repellendus quis est beatae laborum officiis, quam, officia laudantium dolor dicta eos doloremque quos sapiente voluptate fugiat illum alias aspernatur commodi harum minima esse! Repellat maxime aperiam itaque.</p>
+        </div>
+    </section>
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
